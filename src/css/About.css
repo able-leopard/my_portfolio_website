@@ -1,0 +1,15 @@
+
+.about {
+    color: black;
+    font-family: 'Barlow';
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 20%;  */
+    /* height: 100%; */
+    background: url('../Assets/light_bulb.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;    
+  }
+
+
+  /* Oxygen|Anton|Barlow */
