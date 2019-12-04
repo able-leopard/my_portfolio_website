@@ -36,7 +36,7 @@ class ProjectCardSection extends Component {
                     tech_4={"HTML"}
                     img_url={require('../Assets/'+IMAGES.mars)}
                     gif_demo={require('../Assets/'+IMAGES.mars_demo)}
-                    description={"A single page application that connects with the NASA API to retrieve photos taken by the three Mars rovers (Curiosity, Opportunity, and Spirit)."}
+                    description={"A single page application that connects with the NASA API to retrieve photos taken by the Mars rovers"}
                     hosted_version={"https://a-day-in-life-on-mars.netlify.com"}
                     github_link={"https://github.com/able-leopard/a_day_in_the_life_on_mars"}
                 />
