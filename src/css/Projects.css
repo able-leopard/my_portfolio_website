@@ -116,11 +116,9 @@
     box-shadow: -10px 14px 7px -7px rgba(207,207,207,0.85);
 }
 
-
-
 .expanded-card img{
     display:block;
-    width:1000px;
+    width:1400px;
     height: 100%;
 }
 
@@ -139,7 +137,6 @@
     width: 30%;
     justify-content: flex-start;
     text-align: left;
-    word-wrap: break-word;
 }
 
 .expanded-card-info > h2{
@@ -156,7 +153,6 @@
     word-wrap: break-word;
     font-size: 1.5rem;
 }
-
 
 .a-tag-button {
     background: #eceff1;    
@@ -183,23 +179,29 @@
 /* mid-size screen until i-pad */
 @media only screen and (max-width: 1250px) and (min-width: 760px){
 
-    .projects {
-        width: 200%;
-        height: 100vh;
-      }
-
     .projects > h1{
         right: 5%;
     }
 
-    .all-projects{
-        right: 3%;
-    }
-
     .inline-container > div  > img{
         display:block;
-        width:400px;
-        height:250px;
+        width:210px;
+        height:120px;
+    }
+
+    .inline-container > div  > h2{
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+        box-shadow: -1px 4px 2px -3px rgba(207,207,207,0.85);
+    }
+    
+    .inline-container > div > p{
+        font-size: 1rem;
+        margin: 5%;
     }
 
     .expanded-card{
@@ -218,13 +220,14 @@
     /* this is the GIF */
     .expanded-card img{
         display:block;
-        width:90%;
-        height: auto;
+        width:100%;
+        height: 400px;
+        margin: 0px;
+        padding: 0px;
     }
 
     .expanded-card-info{
-        padding: 5%;
-        margin-top: 30%;
+        /* margin-top: 25%; */
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -232,38 +235,33 @@
     }
     
     .expanded-card-info > h2{
-        font-size: 3rem;
+        font-size: 1rem;
     }
     
     .expanded-card-info > h4{
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
     
     .expanded-card-info > p{
-        font-size: 2rem;
-        word-wrap: break-word;
+        font-size: 1rem;
     }
 
     .a-tag-button {
         background: #eceff1;    
-        border: 2px solid white;
-        border-radius: 25px;
+        border: 1px solid white;
+        border-radius: 15px;
         color: black;
-        font-size: 2rem;
+        font-size: 1rem;
         cursor: pointer;
-        padding: 2%;
+        padding: 1%;
         text-decoration: none;
         text-transform: uppercase;
       }
 
     .expanded-card > button{
-        margin-left: 5%;
-        margin-bottom: 5%;
-        height: 5%;
         width: 20%;
-        font-size: 2rem;
+        font-size: 1rem;
     }
-
 
 }
 
@@ -286,19 +284,39 @@
         grid-template-rows: auto auto auto; 
         grid-column-gap: 60px;
         grid-row-gap: 50px;  
-        left: 95%; 
     }
 
     .projects > h1{
-        left: 95%;
         font-size: 3.5rem;
     }
 
 
     .inline-container > div  > img{
         display:block;
-        width:700px;
-        height:350px;
+        width:200px;
+        height:120px;
+    }
+
+    /* change this for media queries */
+    .inline-container > div  > img{
+        display:block;
+        width:250px;
+        height:100px;
+    }
+
+    .inline-container > div  > h2{
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+        box-shadow: -1px 4px 2px -3px rgba(207,207,207,0.85);
+    }
+
+    .inline-container > div > p{
+        font-size: 1rem;
+        margin: 5%;
     }
 
 
@@ -315,16 +333,15 @@
         box-shadow: -10px 14px 7px -7px rgba(207,207,207,0.85);
     }
 
+
     /* this is the GIF */
     .expanded-card img{
         display:block;
-        width:100%;
-        height: auto;
+        width:300px;
+        height: 150px;
     }
 
     .expanded-card-info{
-        margin-top: 20%; 
-        padding: 5%;
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -332,35 +349,31 @@
     }
     
     .expanded-card-info > h2{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
     .expanded-card-info > h4{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
     .expanded-card-info > p{
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .a-tag-button {
         background: #eceff1;    
-        border: 2px solid white;
-        border-radius: 25px;
+        border: 1px solid white;
+        border-radius: 3px;
         color: black;
-        font-size: 1.5rem;
+        font-size: 1rem;
         cursor: pointer;
-        padding: 3%;
         text-decoration: none;
         text-transform: uppercase;
       }
 
     .expanded-card > button{
-        margin-left: 5%;
         margin-bottom: 5%;
-        height: 5%;
         width: 25%;
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
-    
-    }
+}
