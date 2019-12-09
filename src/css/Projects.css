@@ -116,9 +116,11 @@
     box-shadow: -10px 14px 7px -7px rgba(207,207,207,0.85);
 }
 
+
+
 .expanded-card img{
     display:block;
-    width:1400px;
+    width: 1000px;
     height: 100%;
 }
 
@@ -154,6 +156,7 @@
     font-size: 1.5rem;
 }
 
+
 .a-tag-button {
     background: #eceff1;    
     border: 2px solid white;
@@ -176,12 +179,29 @@
     text-decoration: none;
 }
 
+
+/* adding extra media query for expanded view */
+@media only screen and (max-width: 1645px) and (min-width: 1251px){
+
+    .expanded-card img{
+        display:block;
+        width: 700px;
+        height: 100%;
+    }
+
+
+}
+
+
+
 /* mid-size screen until i-pad */
 @media only screen and (max-width: 1250px) and (min-width: 760px){
+
 
     .projects > h1{
         right: 5%;
     }
+
 
     .inline-container > div  > img{
         display:block;
@@ -376,4 +396,5 @@
         width: 25%;
         font-size: 1rem;
     }
+    
 }
